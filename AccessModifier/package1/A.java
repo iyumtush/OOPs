@@ -1,6 +1,7 @@
 package package1;
 import package2.*;
 
+// Shows that public members are accessible across package boundaries.
 public class A {
 	
 	String newMsg = "Hi";

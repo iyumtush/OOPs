@@ -1,5 +1,6 @@
 package Abstraction;
 
+// Shared behavior for animals; subclasses define their own sound and food.
 public abstract class Animal {
 
 	abstract void sound();

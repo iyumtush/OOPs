@@ -1,5 +1,6 @@
 package Inheritance;
 
+// Base class in the Father -> Son -> GrandSon inheritance example.
 public class Father {
 
 	//Example of inheritance how father(lv1) > son (lv2) > grandson(lv3)

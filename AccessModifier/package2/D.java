@@ -1,5 +1,6 @@
 package package2;
 
+// Shows access to public, protected, and package-private members from C's package.
 public class D {
 
 	public static void main(String[] args) {

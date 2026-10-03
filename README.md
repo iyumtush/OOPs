@@ -7,6 +7,7 @@ Small Java examples for learning object-oriented programming concepts. Each exam
 - **Abstraction** — an abstract `Animal` class with `Cat` and `Dog` implementations.
 - **Encapsulation** — an `Employee` class with private fields, getters, setters, and a method that copies values between objects.
 - **Inheritance** — a `Father` → `Son` → `GrandSon` hierarchy, including inherited methods and method overriding.
+- **Interfaces** — `Mouse`, `Snake`, and `Hawk` demonstrate prey and predator behaviors, including implementing multiple interfaces.
 - **Access modifiers** — examples of `public`, `protected`, package-private (default), and `private` access across two packages.
 
 ## Project structure
@@ -19,7 +20,8 @@ Small Java examples for learning object-oriented programming concepts. Each exam
 └── src/
     ├── Abstraction/    # Animal, Cat, Dog, Main
     ├── Encapsulation/  # Employee, Main
-    └── Inheritance/    # Father, Son, GrandSon
+    ├── Inheritance/    # Father, Son, GrandSon
+    └── JavaInterface/  # Prey, Predetor, Mouse, Snake, Hawk, Main
 ```
 
 The Java package declarations match the directory names. The project also includes Eclipse metadata (`.project`, `.classpath`, and `.settings/`); Eclipse is configured to use OpenJDK 26.

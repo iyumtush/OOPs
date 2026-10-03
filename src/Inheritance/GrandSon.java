@@ -1,5 +1,6 @@
 package Inheritance;
 
+// Inherits behavior and land fields through both levels of the hierarchy.
 public class GrandSon extends Son {
 
 	

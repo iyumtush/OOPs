@@ -2,6 +2,7 @@ package package1;
 
 import package2.*;
 
+// Shows protected-member access from a subclass in a different package.
 public class E extends C{
 
 	public static void main(String[] args) {

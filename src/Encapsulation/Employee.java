@@ -1,5 +1,6 @@
 package Encapsulation;
 
+// Keeps employee state private and exposes it through getters and setters.
 public class Employee {
 
 	private int empid; //private :→ Hides the data so it can be accessed directly only inside the same class.
@@ -40,7 +41,8 @@ public class Employee {
 		return salary;
 	}
 	
-	public void copy(Employee x) //Method to copy objects
+	// Copies the field values from another Employee into this object.
+	public void copy(Employee x)
 	{
 		setEmpid(x.getEmpid());
 		setEmpname(x.getEmpname());
