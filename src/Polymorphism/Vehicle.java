@@ -14,10 +14,12 @@ public class Vehicle {
 		
 		Vehicle[] travel = {auto , bicycle , boat};
 		
-		for (Vehicle x : travel)
+		for(Vehicle x : travel)
 		{
 			x.start();
 		}
 	}
 
 }
+
+// A superclass reference invokes the overridden method for each runtime subtype.

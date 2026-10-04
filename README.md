@@ -9,6 +9,7 @@ Small Java examples for learning object-oriented programming concepts. Each exam
 - **Inheritance** — a `Father` → `Son` → `GrandSon` hierarchy, including inherited methods and method overriding.
 - **Interfaces** — `Mouse`, `Snake`, and `Hawk` demonstrate prey and predator behaviors, including implementing multiple interfaces.
 - **Polymorphism** — `Vehicle`, `Auto`, `Bicycle`, and `Boat` demonstrate overridden methods called through a shared parent type.
+- **Dynamic polymorphism** — `Human`, `Male`, and `Female` demonstrate method overriding selected according to the runtime object.
 - **Access modifiers** — examples of `public`, `protected`, package-private (default), and `private` access across two packages.
 
 ## Project structure
@@ -23,7 +24,8 @@ Small Java examples for learning object-oriented programming concepts. Each exam
     ├── Encapsulation/  # Employee, Main
     ├── Inheritance/    # Father, Son, GrandSon
     ├── JavaInterface/  # Prey, Predetor, Mouse, Snake, Hawk, Main
-    └── Polymorphism/   # Vehicle, Auto, Bicycle, Boat
+    ├── Polymorphism/   # Vehicle, Auto, Bicycle, Boat
+    └── Dynamic_Polymorphism/ # Human, Male, Female
 ```
 
 The Java package declarations match the directory names. The project also includes Eclipse metadata (`.project`, `.classpath`, and `.settings/`); Eclipse is configured to use OpenJDK 26.
@@ -52,6 +54,8 @@ After compiling, run a class with a `main` method using its fully qualified name
 java -cp bin Abstraction.Main
 java -cp bin Encapsulation.Main
 java -cp bin Inheritance.GrandSon
+java -cp bin Polymorphism.Vehicle
+java -cp bin Dynamic_Polymorphism.Human
 java -cp bin package1.A
 java -cp bin package2.C
 ```
